@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 router.get("/", (req, res) => {
-    res.render("index", {titulo : "mi titulo dinamico"})
+    res.render("index", {titulo : "Dynamic Title"})
 })
 
 router.get("/servicios", (req, res) => {
-    res.render("servicios", {tituloServicios : "Estas en la pagina de servicios"})
+    res.render("servicios", {tituloServicios : "Contacto: Contenido Indefinido"})
 })
 
 module.exports = router;

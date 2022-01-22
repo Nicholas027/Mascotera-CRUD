@@ -21,8 +21,8 @@ const mongoose = require('mongoose');
 const uri = `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@clusternicolas.yadxm.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(()=> console.log('Sucess!: Conexion Establecida a MongoDB')) 
-  .catch(e => console.log('Error de conexión:', e))
+  .then(()=> console.log('Exito!: Conexion Establecida a MongoDB')) 
+  .catch(e => console.log('Error de conexión con MongoDB:', e))
 
 
 
