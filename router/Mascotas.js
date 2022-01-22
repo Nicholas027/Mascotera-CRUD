@@ -8,7 +8,7 @@ router.get('/', async(req, res) => {
         const arrayMascotasDB = await Mascota.find()
         console.log(arrayMascotasDB)
 
-        res.render("mascotas", {
+        res.render("Mascotas", {
             arrayMascotas: arrayMascotasDB 
         })
         
