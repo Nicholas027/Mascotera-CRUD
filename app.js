@@ -45,7 +45,7 @@ app.listen(port, ()=>{
 
 app.use((req, res, next) => {
     res.status(404).render("404", {
-        titulo: "404",
-        descripcion: "Titulo del Sitio"
+        titulo: "ERROR 404 🚫",
+        descripcion: "La pagina no se encuentra disponible en estos momentos...💔"
     })
 })
