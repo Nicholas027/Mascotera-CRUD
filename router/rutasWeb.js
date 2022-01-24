@@ -6,8 +6,8 @@ router.get("/", (req, res) => {
     
 })
 
-// router.get("/servicios", (req, res) => {
-//     res.render("servicios", {tituloServicios : "Contacto: Contenido Indefinido"})
-// })
+ router.get("/servicios", (req, res) => {
+     res.render("servicios", {tituloServicios : ""})
+})
 
 module.exports = router;

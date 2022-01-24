@@ -46,6 +46,6 @@ app.listen(port, ()=>{
 app.use((req, res, next) => {
     res.status(404).render("404", {
         titulo: "ERROR 404 🚫",
-        descripcion: "Sitio en Mantenimiento - Ingresar al link de Redireccionamiento 👇💔"
+        descripcion: "Sitio en Mantenimiento💔"
     })
 })

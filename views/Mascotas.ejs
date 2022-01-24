@@ -1,12 +1,15 @@
 <%-include("template/cabecera", {tituloWeb: "CRUD - Mascotera"}) %>
 
+<body id="bodyxd2">
+  
 
-<div class="container">
-  <h1 class="text-center my-2">🐶 Base de Datos: Mascotera 🐺</h1>
+<div class="container bg-light">
+  <h1 class="text-center my-2">🐶 Base de Datos: Mascotera 🐺<br>
+                                      CRUD - MongoDB  </h1>
 
   <a class="btn btn-success btn-block my-4" href="/Mascotas/crear">CREAR</a>
 
-    <table class="table">
+    <table class="table ">
         <thead>
           <tr>
             <th scope="col">Id</th>
@@ -35,7 +38,7 @@
      <% }) %>
     <% } %>
 </div>
-
+</body>
 
 
 <%-include("template/footer") %>
