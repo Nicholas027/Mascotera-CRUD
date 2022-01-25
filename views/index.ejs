@@ -1,117 +1,118 @@
-<%-include("template/cabecera", {tituloWeb: "Pagina de Inicio"}) %>
+<%-include("template/cabecera", {tituloWeb: "Pagina de Inicio" }) %>
 
-<!--<h1 class="text-danger text-center"><b>En Mantenimiento</b></h1>-->
-<!--<h2><%= titulo %></h2>-->
+  <!--<h1 class="text-danger text-center"><b>En Mantenimiento</b></h1>-->
+  <!--<h2><%= titulo %></h2>-->
 
-<div id="carouselExampleCaptions" class="carousel slide flex" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <div id="carouselExampleCaptions" class="carousel slide flex img-fluid" data-bs-ride="carousel">
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://cutewallpaper.org/22/front-end-wallpapers/271184633.jpg" class="d-block w-100 opacity-300" alt="...">
-        <div class="carousel-caption d-none d-md-block flex-md-grow-1">
-            <div class="text-center container ">
-              <picture>
-        <source
-            srcset="https://i.ibb.co/1btL1J3/image-mobile.jpg"
-            type="image/jpg"
-            media="(max-width: 599px)"
-        />
-        <source
-            srcset="https://i.ibb.co/xmC2Kwx/image-desktop.jpg"
-            type="image/jpg"
-            media="(min-width: 600px)"
-        /> 
-                <img src="https://i.ibb.co/xmC2Kwx/image-desktop.jpg" class="rounded w-25 p-3 rounded-pill" alt="Mi novia y yo">
-              </picture></div>
-              <h3>Me presento! 😀</h3>
-              <p>Me llamo Nicolás Saavedra y aspiro a ser Frontend Developer, soy estudiante <br>
-                en la Tecnicatura en Desarrollo y Calidad de Software en UNSTA
-              </p>
-            </div>
-          </div>
+    <div class="carousel-inner img-fluid">
+      <div class="carousel-item active img-fluid">
+        <img src="https://cutewallpaper.org/22/front-end-wallpapers/271184633.jpg" class="d-block w-100 opacity-300"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block flex-md-grow-1 img-fluid">
+          <div class="text-center container ">
+            <picture class="img-fluid">
+              <source srcset="https://i.ibb.co/1btL1J3/image-mobile.jpg" type="image/jpg" media="(max-width: 599px)" />
+              <source srcset="https://i.ibb.co/xmC2Kwx/image-desktop.jpg" type="image/jpg" media="(min-width: 600px)" />
+              <img src="https://i.ibb.co/xmC2Kwx/image-desktop.jpg" class="rounded w-25 p-3 rounded-pill img-fluid"
+                alt="Mi novia y yo">
+            </picture>
+          </div class="img-fluid">
+          <h3>Me presento! 😀</h3>
+          <p>Me llamo Nicolás Saavedra y aspiro a ser Frontend Developer, soy estudiante <br>
+            en la Tecnicatura en Desarrollo y Calidad de Software en UNSTA
+          </p>
+        </div>
+      </div>
       <div class="carousel-item">
         <img src="https://i.ibb.co/wp5GKmm/cropped-1920-1080-568747.jpg" class="d-block w-100 " alt="...">
         <div class="carousel-caption d-none d-md-block">
           <div class="container">
-                <div class="text-center">
-                  <img src="https://i.ibb.co/TKD4vhB/Untitled-2022-01-22-1112.png" class=" align-center rounded  " alt="...">
-                </div>
-
-              </div>
-              <h3><a>Conocimientos Basicos: 😀</a></h3>
-          <p> - Hardware  
-            - HTML5 
-            - CSS3 
-              - Javascript 
-              - Node.js / NPM 
-              - MySQL / MongoDB 
-              - Bootstrap5 
-              - Electron.js 
-              - P5.js 
-              - GIT & GITHUB -</p>
+            <div class="text-center d-inline-flex p-2 bd-highlight">
+              <img src="https://i.ibb.co/TKD4vhB/Untitled-2022-01-22-1112.png" class=" align-center rounded d-inline-flex p-2 bd-highlight img-fluid "
+                alt="...">
             </div>
+
           </div>
+          <h3><a>Conocimientos Basicos: 😀</a></h3>
+          <p> - Hardware
+            - HTML5
+            - CSS3
+            - Javascript
+            - Node.js / NPM
+            - MySQL / MongoDB
+            - Bootstrap5
+            - Electron.js
+            - P5.js
+            - GIT & GITHUB -</p>
+        </div>
+      </div>
     </div>
-    <button class="carousel-control-prev h-75 d-inline-block " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <button class="carousel-control-prev h-75 d-inline-block " type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next h-75 d-inline-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <button class="carousel-control-next h-75 d-inline-block" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
     <!--Boton flotante-->
     <div class="container">
-                    <div id="div-totop" class="cmn-divfloat">
-                      <a href="https://www.instagram.com/nicolas.saavedra.1485537" class="btn cmn-btncircle rotate-90-cw" target="_blank" id="botoncito">
-                          <i class="fa fa-arrow-up"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <script>
-                    (function() {
+      <div id="div-totop" class="cmn-divfloat">
+        <a href="https://www.instagram.com/nicolas.saavedra.1485537" class="btn cmn-btncircle rotate-90-cw"
+          target="_blank" id="botoncito">
+          <i class="fa fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <script>
+      (function () {
         //a partir de que punto del scroll vertical de la ventana mostrará el botón
         const ishow = 115
         const $divtop = document.getElementById("div-totop")
-        window.addEventListener("scroll", function() {
-            if(document.documentElement.scrollTop > ishow){
-                $divtop.style.display = "inherit"
-            }
-            else {
-                $divtop.style.display = "none"
-            }
+        window.addEventListener("scroll", function () {
+          if (document.documentElement.scrollTop > ishow) {
+            $divtop.style.display = "inherit"
+          }
+          else {
+            $divtop.style.display = "none"
+          }
         })
-    })()
+      })()
     </script>
     <!--Boton flotante-->
 
 
-  
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
 
 
 
-<%-include("template/footer") %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <%-include("template/footer") %>
